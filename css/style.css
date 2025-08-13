@@ -3,9 +3,30 @@
 @import url("sections/header.css");
 @import url("sections/hero.css");
 @import url("sections/client.css");
+@import url("sections/community.css");
+@import url("sections/pixelgrade.css");
+@import url("sections/phone.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.bg-overlay {
+  background: var(--neutral-silver);
+  
+  
+}
+
+body{
+  font-family: "Inter", sans-serif;
+}
 
 :root{
-  --inter-sans: 'Inter', sans-serif;
+  --inter-sans: "Inter", sans-serif;
 
   /* neutrals */
   --neutral-black: #263238;

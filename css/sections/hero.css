@@ -1,11 +1,5 @@
-.container {
-    width: 100%;
-    max-width: 1440px;
-    margin: auto;
-}
-.bg-overlay {
-    background: var(--neutral-silver);
-}
+
+
 .hero{
     display: flex;
     position: relative;
