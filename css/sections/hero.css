@@ -17,28 +17,12 @@
     flex-direction: column; 
     flex-wrap: wrap;
 }
-.hero-content__info h1{
-    font-size: 64px;
-    font-family: var(--inter-sans);
-    font-weight: 600;
-    line-height: 76px;
-    text-align: left;
-    color: var(--neutral-d_grey);
 
-    margin: 0;
-}
 .hero-content__info h1 span{
     color: var(--primary-color);
 }
 
 .hero-content__info p{
-    font-size: 14px;
-    font-family: var(--inter-sans);
-    font-weight: 500;
-    line-height: 16px;
-    color: var(--neutral-grey);
-    text-align: left;
-    
     padding: 20px 0;
 }
 

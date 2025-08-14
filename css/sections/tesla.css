@@ -40,12 +40,6 @@
 }
 
 .tesla-content__info p{
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 25px;
-    color: var(--neutral-grey);
-    text-align: left;
-
     margin-bottom: 0;
 }
 
