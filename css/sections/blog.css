@@ -45,8 +45,6 @@
     position: relative;
     justify-content: center;
     align-items: center;
-
-    position: relative;
 }
 
 .card-img {
@@ -63,17 +61,14 @@
     border: none;
     border-radius: 6px;
     box-shadow: 2px 2px 8px rgba(171, 190, 209, 0.2);
-
-    width: 350px;
-    padding: 10px;
-
     background-color: white;
 
-    position: absolute;
+    width: 350px;
+    min-height: 150px;
+    padding: 10px;
+    top: -60px;
     z-index: 1;
-    bottom: -50px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
 }
 
 .blog-bottom__card-info p {
@@ -89,8 +84,6 @@
     display: flex;
     align-items: center;
     gap: 5px;
-
-    padding-bottom: 10px;
 }
 
 .blog-bottom__card-info-button span {
