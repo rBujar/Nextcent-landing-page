@@ -8,6 +8,7 @@
 @import url("sections/phone.css");
 @import url("sections/tesla.css");
 @import url("sections/blog.css");
+@import url("sections/demo.css");
 
 .container {
   width: 100%;
