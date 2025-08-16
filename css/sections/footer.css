@@ -1,0 +1,133 @@
+.footer-bg {
+    background-color: var(--neutral-black);
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.footer-logo {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-logo__main-logo {
+    width: 155px;
+    height: 24px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.footer-logo__copyrights {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo__copyrights p {
+    line-height: 0px;
+}
+
+.footer-logo__socials {
+    padding-top: 20px;
+    gap: 30px;
+    display: flex;
+}
+
+.footer-logo__socials img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.footer-logo__socials a {
+    width: 40px;
+    height: 40px;
+    background-color: var(--neutral-d_grey);
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-company-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.footer-logo__socials a:hover {
+    background-color: var(--neutral-l_grey);
+}
+
+.footer-company,
+.footer-support {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-email {
+    top: -66px;
+    position: relative;
+}
+
+.footer-email__wrapper {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: var(--neutral-l_grey);
+    padding: 5px 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer-email input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--neutral-silver);
+    font-size: 14px;
+}
+
+.footer-email input::placeholder {
+    color: var(--neutral-silver);
+}
+
+.footer-email__wrapper-button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-email__wrapper-button img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
