@@ -143,22 +143,18 @@ body {
   .p-style {
     font-size: 12px;
     font-weight: 300;
-    line-height: 16px;
   }
 
   .footer-p {
     font-size: 14px;
-    color: var(--neutral-silver);
     font-weight: 400;
     line-height: 32px;
   }
 
   .footer-h3 {
     font-size: 20px;
-    color: var(--neutral-white);
     font-weight: 500;
     line-height: 26px;
-    text-align: start;
   }
 
   button {
@@ -168,47 +164,6 @@ body {
 
   button:hover {
     background-color: var(--primary-color-hover);
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .h1-style {
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 70px;
-  }
-
-  .h2-style {
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 38px;
-  }
-
-  .h3-style {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 30px;
-  }
-
-  .p-style {
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 16px;
-  }
-
-  .footer-p {
-    font-size: 14px;
-    color: var(--neutral-silver);
-    font-weight: 400;
-    line-height: 32px;
-  }
-
-  .footer-h3 {
-    font-size: 20px;
-    color: var(--neutral-white);
-    font-weight: 500;
-    line-height: 26px;
-    text-align: start;
   }
 }
 
@@ -222,41 +177,11 @@ body {
 
   .h1-style {
     font-size: 40px;
-    font-weight: 500;
     line-height: 50px;
     text-align: left;
   }
 
   .h2-style {
     font-size: 25px;
-    font-weight: 500;
-    line-height: 38px;
-  }
-
-  .h3-style {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 30px;
-  }
-
-  .p-style {
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 16px;
-  }
-
-  .footer-p {
-    font-size: 14px;
-    color: var(--neutral-silver);
-    font-weight: 400;
-    line-height: 32px;
-  }
-
-  .footer-h3 {
-    font-size: 20px;
-    color: var(--neutral-white);
-    font-weight: 500;
-    line-height: 26px;
-    text-align: start;
   }
 }

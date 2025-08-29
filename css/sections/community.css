@@ -57,7 +57,6 @@
 
 @media screen and (max-width: 1024px) {
     .community-suitables {
-        justify-content: space-around;
         flex-wrap: wrap;
     }
 }

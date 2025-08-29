@@ -74,8 +74,6 @@
     .phone-content button {
         font-size: 14px;
         line-height: 14px;
-        font-weight: 500;
-
         padding: 14px 20px;
     }
 }
@@ -85,53 +83,19 @@
         gap: 0px;
         padding: 20px;
         margin: 20px auto;
-        flex-wrap: wrap;
-    }
-
-    .phone-content p {
-        margin-top: 0;
-    }
-
-    .phone-content h2 {
-        text-align: left;
-    }
-
-    .phone-img {
-        margin-left: 0;
-    }
-
-    .phone-img img {
-        width: 350px;
-        height: 350px;
-        padding-left: 0;
-        margin-left: 0;
-    }
-
-    .phone-content button {
-        font-size: 14px;
-        line-height: 14px;
-        font-weight: 500;
-
-        padding: 14px 20px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .phone {
-        gap: 0px;
         padding: 10px 0px 10px 10px;
         margin: 20px auto;
         flex-wrap: wrap-reverse;
     }
 
     .phone-content p {
-        margin-top: 0;
         width: fit-content;
         line-height: 18px;
-    }
-
-    .phone-content h2 {
-        text-align: left;
     }
 
     .phone-img {
@@ -142,17 +106,6 @@
     .phone-img img {
         width: 300px;
         height: 300px;
-        padding-left: 0;
-        margin-left: 0;
         margin-right: 30px;
-        object-fit: contain;
-    }
-
-    .phone-content button {
-        font-size: 14px;
-        line-height: 14px;
-        font-weight: 500;
-
-        padding: 14px 20px;
     }
 }

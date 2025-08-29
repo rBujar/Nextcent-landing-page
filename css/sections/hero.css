@@ -96,10 +96,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .hero {
-        flex-wrap: wrap;
-    }
-
     .hero-image {
         margin-left: 10px;
     }
@@ -125,14 +121,11 @@
     }
 
     .hero-content__info p {
-        padding: 0;
         margin: 5px 0;
         width: fit-content;
     }
 
     .hero-content__info button {
-        font-size: 12px;
-        padding: 12px 20px;
         margin-top: 10px;
     }
 
