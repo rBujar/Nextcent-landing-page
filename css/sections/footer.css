@@ -46,6 +46,11 @@
     width: 26px;
     height: 26px;
     object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.footer-logo__socials img:hover {
+    transform: scale(1.1);
 }
 
 .footer-logo__socials a {
@@ -53,7 +58,7 @@
     height: 40px;
     background-color: var(--neutral-d_grey);
     border-radius: 50%;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
 
     display: flex;
     align-items: center;
@@ -70,6 +75,7 @@
 
 .footer-logo__socials a:hover {
     background-color: var(--neutral-l_grey);
+    transform: scale(1.4);
 }
 
 .footer-company,
@@ -125,6 +131,10 @@ ul a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer-email__wrapper-button:hover {
+    background-color: unset;
 }
 
 .footer-email__wrapper-button img {
@@ -208,7 +218,7 @@ ul a {
         gap: 0px;
         flex-direction: column;
         flex-wrap: wrap;
-        padding: 0;
+        padding: 0px;
         margin: 20px auto;
         align-items: start;
     }
@@ -218,6 +228,7 @@ ul a {
         height: 35px;
         margin-top: 20px;
         width: fit-content;
+        padding: 10px;
     }
 
     .footer-logo {

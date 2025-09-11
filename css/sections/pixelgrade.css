@@ -176,22 +176,25 @@
 
 @media screen and (max-width: 480px) {
     .pixelgrade-info {
-        padding: 10px 0px 10px 10px;
+        padding: 0px;
         flex-wrap: wrap-reverse;
     }
 
     .pixelgrade-info__content {
         margin: 0;
-        padding: 0;
+        padding: 10px;
     }
 
     .pixelgrade-info__content p {
-        margin-right: 20px;
+        margin-right: 10px;
         width: fit-content;
     }
 
     .pixelgrade-bottom {
-        padding: 10px 0px 10px 10px;
+        padding: 0px;
+    }
+    .pixelgrade-bottom__title, .pixelgrade-bottom__right{
+        padding: 10px;
     }
 
     .pixelgrade-bottom__title h2 {
@@ -203,6 +206,7 @@
         display: flex;
         justify-content: center;
         width: 100%;
+        display: none;
     }
 
     .pixelgrade-info__img img {
@@ -212,7 +216,7 @@
     }
 
     .pixelgrade-bottom__right {
-        margin: 10px auto;
+        margin: 0px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
@@ -230,16 +234,18 @@
     }
 
     .pixelgrade-bottom__stats-info h3 {
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 0;
+        text-align: unset;
     }
 
     .pixelgrade-bottom__stats-info span {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .pixelgrade-bottom__stats img {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
     }
 }

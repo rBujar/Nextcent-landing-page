@@ -10,6 +10,7 @@
 @import url("sections/blog.css");
 @import url("sections/get-demo.css");
 @import url("sections/footer.css");
+@import url("sections/scroll_up.css");
 
 .container {
   width: 100%;
@@ -81,6 +82,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  margin: 0;
 }
 
 :root {

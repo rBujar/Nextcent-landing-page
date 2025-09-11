@@ -61,7 +61,7 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -71,27 +71,43 @@
     width: 100%;
 }
 
+.tesla-content__bottom-img img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.tesla-content__bottom-img img:hover{
+    transform: scale(1.3);
+}
+
 .tesla-content__bottom-text {
     display: flex;
     gap: 10px;
     align-items: center;
     white-space: nowrap;
 
+    position: relative;
     margin-left: 20px;
-    margin-right: -9px;
 }
 
-.tesla-content__bottom-text h4 {
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 500;
+.tesla-content__bottom-text a {
+    text-decoration: none;
     color: var(--primary-color);
+    font-size: 25px;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.tesla-content__bottom-text a:hover {
+    color: var(--primary-color-hover);
+    font-size: 28px;
 }
 
 .tesla-content__bottom-text img {
-    width: 40px;
+    width: 100px;
     height: auto;
-    margin-right: 4px;
 
     object-fit: contain;
 }
@@ -125,13 +141,12 @@
         object-fit: contain;
     }
 
-    .tesla-content__bottom-text h4 {
+    .tesla-content__bottom-text a {
         font-size: 16px;
         line-height: 26px;
     }
 
     .tesla-content__bottom-text img {
-        width: 30px;
         margin-right: 5px;
     }
 }
@@ -145,7 +160,7 @@
         margin-right: 50px;
     }
 
-    .tesla-content__info h4 {
+    .tesla-content__info a {
         font-size: 18px;
         line-height: 20px;
         font-weight: 500;
@@ -172,6 +187,7 @@
 
     .tesla-content {
         margin-right: 0px;
+        padding: 10px;
     }
 
     .tesla-content__info p {
@@ -187,24 +203,37 @@
         gap: 0px;
     }
 
+    .tesla-content__bottom-img {
+        gap: 10px;
+    }
+
     .tesla-content__bottom-img img {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
 
     .tesla-content__bottom-text {
         margin: 0;
-        gap: 2px;
+        gap: 0px;
+        position: relative;
+        right: 5px;
     }
 
-    .tesla-content__bottom-text h4 {
+    .tesla-content__bottom-text a {
         font-size: 14px;
         padding-left: 20px;
+        margin-right: 5px;
+        transition: none;
+    }
+
+    .tesla-content__bottom-text a:hover {
+        color: var(--primary-color-hover);
+        font-size: 14px;
     }
 
     .tesla-content__bottom-text img {
         width: 25px;
         padding-right: 0px;
-        margin-right: 0;
+        margin-right: 10px;
     }
 }

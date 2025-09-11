@@ -112,8 +112,11 @@
 @media screen and (max-width: 480px) {
     .hero {
         flex-direction: column;
-        padding: 10px 0px 10px 10px;
+        padding: 0;
         width: fit-content;
+    }
+    .hero-content__info{
+        padding: 10px;
     }
 
     .hero-content__info h1 {
@@ -140,5 +143,9 @@
         height: 250px;
         width: 250px;
         margin: 0;
+    }
+
+    .hero-circles{
+        display: none;
     }
 }
