@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
 @import url("sections/header.css");
 @import url("sections/hero.css");
 @import url("sections/client.css");
@@ -10,12 +9,8 @@
 @import url("sections/blog.css");
 @import url("sections/get-demo.css");
 @import url("sections/footer.css");
-
-.container {
-  width: 100%;
-  max-width: 1440px;
-  margin: auto;
-}
+@import url("sections/scroll_up.css");
+@import url("./reset.css");
 
 .bg-overlay {
   background: var(--neutral-silver);
@@ -83,6 +78,24 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.green-btn{
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 16px; 
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.green-btn:hover{
+  background-color: var(--primary-color-hover);;
+}
+
+
 :root {
   --inter-sans: "Inter", sans-serif;
 
@@ -117,71 +130,38 @@ body {
   --success: #2e7d31;
 }
 
-@media screen and (max-width: 1500px) {
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* <=1399px */
+@media (max-width: 1399.98px) {
   .container {
-    max-width: 960px;
-  }
-
-  .h1-style {
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 70px;
-  }
-
-  .h2-style {
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 38px;
-  }
-
-  .h3-style {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 30px;
-  }
-
-  .p-style {
-    font-size: 12px;
-    font-weight: 300;
-  }
-
-  .footer-p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 32px;
-  }
-
-  .footer-h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 26px;
-  }
-
-  button {
-    cursor: pointer;
-    transition: color 0.3 ease;
-  }
-
-  button:hover {
-    background-color: var(--primary-color-hover);
+      max-width: 1140px;
   }
 }
 
-@media screen and (max-width: 480px) {
+/* <=1199px */
+@media (max-width: 1199.98px) {
   .container {
-    margin: 0;
-    /* width: 100%;      
-    max-width: 100%;
-    box-sizing: border-box; */
+      max-width: 960px;
   }
+}
 
-  .h1-style {
-    font-size: 40px;
-    line-height: 50px;
-    text-align: left;
+/* <=991px */
+@media (max-width: 991.98px) {
+  .container {
+      max-width: 720px;
   }
+}
 
-  .h2-style {
-    font-size: 25px;
+/* <=767px */
+@media (max-width: 767.98px) {
+  .container {
+      max-width: 540px;
   }
 }
