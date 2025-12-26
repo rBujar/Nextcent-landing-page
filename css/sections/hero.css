@@ -1,13 +1,8 @@
 .hero {
     display: flex;
     overflow: hidden;
-    padding: 20px;
-
-}
-
-.hero-content__info {
-
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero-content__info h1 span {
@@ -23,14 +18,12 @@
 }
 
 .hero-image {
-    width: 120%;
-    height: 100%;
-
+ 
 }
 
 .hero-image img {
-    height: 350px;
-    width: 350px;
+    width: 500px;
+    height: 500px;
 }
 
 @media screen and (max-width: 1024px) {

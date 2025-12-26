@@ -23,8 +23,6 @@
   line-height: 76px;
   text-align: left;
   color: var(--neutral-d_grey);
-
-  margin: 0;
 }
 
 .h2-style {
@@ -35,7 +33,6 @@
   line-height: 44px;
   font-family: var(--inter-sans);
   color: var(--neutral-d_grey);
-
   margin-bottom: 5px;
 }
 
@@ -55,7 +52,6 @@
   font-weight: 600;
   color: var(--neutral-d_grey);
   text-align: center;
-
   margin: 5px;
 }
 
@@ -131,11 +127,16 @@ body {
 }
 
 .container {
-  width: 100%;
+  max-width: 1320px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+section{
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 /* <=1399px */
@@ -156,6 +157,11 @@ body {
 @media (max-width: 991.98px) {
   .container {
       max-width: 720px;
+  }
+
+  section{
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
