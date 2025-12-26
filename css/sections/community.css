@@ -43,3 +43,26 @@
 
     object-fit: contain;
 }
+
+@media screen and (max-width: 1500px) {
+    .community-card {
+        padding: 18px 20px;
+    }
+
+    .community-card img {
+        width: 60px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .community-suitables {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .community-card {
+        flex-wrap: wrap;
+    }
+}
