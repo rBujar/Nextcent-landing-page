@@ -17,6 +17,8 @@
     justify-content: center;
     gap: 50px;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header__menu li {
@@ -156,11 +158,6 @@
         width: 110px;
         height: 24px;
         object-fit: contain;
-    }
-
-    .header__menu {
-        gap: 55px;
-        margin-left: 60px;
     }
 
     .header__menu li {

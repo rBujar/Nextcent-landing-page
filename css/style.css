@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("sections/header.css");
-@import url("sections/hero.css");
+@import url("sections/hero.scss");
 @import url("sections/client.css");
 @import url("sections/community.css");
 @import url("sections/pixelgrade.css");
@@ -16,81 +16,71 @@
   background: var(--neutral-silver);
 }
 
-.h1-style {
-  font-size: 64px;
+h1,
+h2,
+h3 {
   font-family: var(--inter-sans);
-  font-weight: 600;
-  line-height: 76px;
-  text-align: left;
   color: var(--neutral-d_grey);
 }
 
-.h2-style {
-  text-align: center;
+.h1-style {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+}
 
+.h2-style {
   font-size: 36px;
   font-weight: 600;
   line-height: 44px;
-  font-family: var(--inter-sans);
-  color: var(--neutral-d_grey);
-  margin-bottom: 5px;
 }
 
 .p-style {
   font-size: 14px;
-  font-family: var(--inter-sans);
   font-weight: 500;
   line-height: 16px;
-  color: var(--neutral-grey);
-  text-align: left;
 }
 
 .h3-style {
   font-size: 28px;
   line-height: 36px;
-  font-family: var(--inter-sans);
   font-weight: 600;
-  color: var(--neutral-d_grey);
-  text-align: center;
-  margin: 5px;
 }
 
 .footer-p {
   font-size: 16px;
-  color: var(--neutral-silver);
   font-weight: 600;
   line-height: 36px;
+  color: var(--neutral-silver);
 }
 
 .footer-h3 {
   font-size: 24px;
-  color: var(--neutral-white);
   font-weight: 600;
   line-height: 30px;
-  text-align: start;
+  color: var(--neutral-white);
 }
 
 body {
   font-family: "Inter", sans-serif;
 }
 
-.green-btn{
-    border: none;
-    outline: none;
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 400;
-    line-height: 16px; 
-    transition: background-color 0.3s ease-in-out;
-    cursor: pointer;
+.green-btn {
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 16px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
 }
 
-.green-btn:hover{
-  background-color: var(--primary-color-hover);;
+.green-btn:hover {
+  background-color: var(--primary-color-hover);
 }
-
 
 :root {
   --inter-sans: "Inter", sans-serif;
@@ -134,7 +124,7 @@ body {
   margin-left: auto;
 }
 
-section{
+section {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -142,32 +132,77 @@ section{
 /* <=1399px */
 @media (max-width: 1399.98px) {
   .container {
-      max-width: 1140px;
+    max-width: 1140px;
   }
 }
 
 /* <=1199px */
 @media (max-width: 1199.98px) {
   .container {
-      max-width: 960px;
+    max-width: 960px;
+  }
+
+  .h1-style {
+    font-size: 52px;
+    line-height: 64px;
+  }
+
+  .h2-style {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .h3-style {
+    font-size: 24px;
+    line-height: 32px;
   }
 }
 
 /* <=991px */
 @media (max-width: 991.98px) {
   .container {
-      max-width: 720px;
+    max-width: 720px;
   }
 
-  section{
+  section {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .h1-style {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  .h2-style {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .h3-style {
+    font-size: 22px;
+    line-height: 30px;
   }
 }
 
 /* <=767px */
 @media (max-width: 767.98px) {
   .container {
-      max-width: 540px;
+    max-width: 540px;
+  }
+
+  .h1-style {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .h2-style {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .h3-style {
+    font-size: 20px;
+    line-height: 28px;
   }
 }
