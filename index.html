@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nextcent</title>
   </head>
+
   <body>
     <header>
-      <nav class="header__nav">
+      <nav class="header__nav container">
         <div class="header__logo">
           <img src="assets/logo-full.png" alt="logo" />
           <div class="header__logo-overlay"></div>
@@ -317,73 +318,95 @@
     <div class="bg-overlay">
       <section class="get-demo container">
         <h1 class="h1-style">
-          Pellentesque suscipit <br> fringilla libero eu.
+          Pellentesque suscipit <br />
+          fringilla libero eu.
         </h1>
-        <button class="get-demo-button">Get a Demo
-        <img src="assets/arrow-right.png" alt="right-arrow"></button>
-      </div>
+        <button class="get-demo-button">
+          Get a Demo <img src="assets/arrow-right.png" alt="right-arrow" />
+        </button>
       </section>
     </div>
 
-    <footer class="footer container">
-      <div class="footer-logo">
-        <img src="assets/logo-full.png" alt="nextcent-logo">
-        <div class="footer-logo__copyrights">
-          <p>Copyright © 2020 Landify UI Kit.</p>
-          <p>All rights reserved</p>
+    <div class="footer-bg">
+      <footer class="footer container">
+        <div class="footer-logo">
+          <img
+            src="assets/white-full-logo.png"
+            class="footer-logo__main-logo"
+            alt="nextcent-logo"
+          />
+          <div class="footer-logo__copyrights">
+            <p class="footer-p">Copyright © 2020 Landify UI Kit.</p>
+            <p class="footer-p">All rights reserved</p>
+          </div>
+          <div class="footer-logo__socials">
+            <a href=""
+              ><img src="assets/instagram-icon.png" alt="instagram-icon"
+            /></a>
+            <a href=""
+              ><img src="assets/internet-icon.png" alt="internet-icon"
+            /></a>
+            <a href=""
+              ><img src="assets/twitter-icon.png" alt="twitter-icon"
+            /></a>
+            <a href=""
+              ><img src="assets/youtube-icon.png" alt="youtube-icon"
+            /></a>
+          </div>
         </div>
-        <div class="footer-logo__socials">
-          <img src="assets/instagram-icon.png" alt="instagram-icon">
-          <img src="assets/internet-icon.png" alt="internet-icon">
-          <img src="assets/twitter-icon.png" alt="twitter-icon">
-          <img src="assets/youtube-icon.png" alt="youtube-icon">
+        <ul class="footer-company">
+          <h3 class="footer-h3">Company</h3>
+          <li>
+            <a href="#about-us" class="footer-p">About us</a>
+          </li>
+          <li>
+            <a href="#blog" class="footer-p">Blog</a>
+          </li>
+          <li>
+            <a href="#contact-us" class="footer-p">Contact us</a>
+          </li>
+          <li>
+            <a href="#pricing" class="footer-p">Pricing</a>
+          </li>
+          <li>
+            <a href="#testimonials" class="footer-p">Testimonials</a>
+          </li>
+        </ul>
+
+        <ul class="footer-support">
+          <h3 class="footer-h3">Support</h3>
+          <li>
+            <a href="#help-center" class="footer-p">Help Center</a>
+          </li>
+          <li>
+            <a href="#terms-of-service" class="footer-p">Terms Of Service</a>
+          </li>
+          <li>
+            <a href="#legal" class="footer-p">Legal</a>
+          </li>
+          <li>
+            <a href="#privacy-policy" class="footer-p">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#status" class="footer-p">Status</a>
+          </li>
+        </ul>
+
+        <div class="footer-email">
+          <h3 class="footer-h3">Stay up to date</h3>
+          <div class="footer-email__wrapper">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email address"
+            />
+            <button type="submit" class="footer-email__wrapper-button">
+              <img src="assets/send-icon.png" alt="send" />
+            </button>
+          </div>
         </div>
-      </div>
-      <ul class="footer-company">
-        <h3 class="footer-h3">Company</h3>
-        <li>
-          <a href="#about-us">About us</a>
-        </li>
-        <li>
-          <a href="#blog">Blog</a>
-        </li>
-        <li>
-          <a href="#contact-us">Contact us</a>
-        </li>
-        <li>
-          <a href="#pricing">Pricing</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-support">
-         <h3 class="footer-h3">Support</h3>
-        <li>
-          <a href="#help-center">Help Center</a>
-        </li>
-        <li>
-          <a href="#terms-of-service">Terms Of Service</a>
-        </li>
-        <li>
-          <a href="#legal">Legal</a>
-        </li>
-        <li>
-          <a href="#privacy-policy">Privacy Policy</a>
-        </li>
-        <li>
-          <a href="#status">Status</a>
-        </li>
-      </ul>
-
-      <div class="footer-email">
-        <h3 class="footer-h3">Stay up to date</h3>
-        <label for="email"></label>
-        <input type="email" id="email" name="email" placeholder="Your email address">
-      </div>
-    </footer>
-
+      </footer>
+    </div>
   </body>
 </html>
