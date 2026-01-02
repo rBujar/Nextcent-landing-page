@@ -1,25 +1,27 @@
-.hero {
-    display: flex;
-    overflow: hidden;
-    justify-content: space-between;
-    align-items: center;
+@import "../mixins.scss";
 
-    &__content{
-        span{
+.hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    @include position($justify: space-between, $direction: row);
+
+    &__content {
+        span {
             color: var(--primary-color);
         }
 
-        p{
+        p {
             padding: 20px 0;
         }
 
-        button{
+        button {
             padding: 18px 30px;
         }
     }
 
-    &__image{
-        img{
+    &__image {
+        img {
             width: 500px;
             height: 500px;
         }
@@ -27,14 +29,15 @@
 }
 
 @media (max-width: 1199.98px) {
-    .hero{
-        &__content{
-            p{
+    .hero {
+        &__content {
+            p {
                 padding-right: 40px;
             }
         }
-        &__image{
-            img{
+
+        &__image {
+            img {
                 width: 400px;
                 height: 400px;
             }
@@ -43,26 +46,26 @@
 }
 
 @media (max-width: 991.98px) {
-    .hero{
-     &__image{
-        img{
-            width: 280px;
-            height: 280px;
+    .hero {
+        &__image {
+            img {
+                width: 280px;
+                height: 280px;
+            }
         }
-     }
     }
 }
 
 @media (max-width: 767.98px) {
-    .hero{
+    .hero {
         flex-direction: column;
         justify-content: center;
         gap: 50px;
-        
-        &__content{
+
+        &__content {
             text-align: center;
 
-            p{
+            p {
                 padding-right: 0px;
             }
         }

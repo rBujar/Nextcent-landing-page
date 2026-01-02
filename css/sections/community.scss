@@ -1,0 +1,59 @@
+@import "../mixins.scss";
+
+.community {
+    @include position();
+
+    &__title {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2 {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__cards {
+        @include position($direction: row, $justify: space-between);
+        width: 100%;
+    }
+
+    &__item {
+        @include position();
+        text-align: center;
+        gap: 10px;
+        padding: 25px 30px;
+        box-shadow: 2px 2px 8px rgba(171, 190, 209, 0.2);
+        border: 6px;
+        width: 250px;
+        height: 220px;
+
+        h3 {
+            font-size: 20px;
+            line-height: 25px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 10px;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .community {
+        &__cards {
+            justify-content: space-between;
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .community {
+        &__cards {
+            flex-direction: column;
+            width: initial;
+            gap: 30px;
+        }
+    }
+}

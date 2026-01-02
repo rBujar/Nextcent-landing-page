@@ -1,0 +1,21 @@
+@import "../mixins.scss";
+
+.client {
+    &__title {
+        text-align: center;
+        margin-bottom: 25px;
+        padding-top: 30px;
+
+        h2 {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__logos {
+        @include position($direction: row, $justify: space-between);
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        img {}
+    }
+}
