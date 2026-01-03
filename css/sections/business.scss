@@ -1,36 +1,37 @@
 @import "../mixins.scss";
 
-.business{
-    &__title{
+.business {
+    &__title {
         @include position($align: start);
         gap: 10px;
 
-        span{
+        span {
             color: var(--primary-color);
         }
     }
 
-    &__content{
-        @include position($direction: row,);
+    &__content {
+        @include position($direction: row);
     }
 
-    &__item{
+    &__item {
         @include position($direction: row, $align: start, $justify: start);
         gap: 10px;
 
-        &--business, &--clubs{
+        &--business,
+        &--clubs {
             margin-bottom: 30px;
         }
 
-        h3{
+        h3 {
             font-weight: 700;
         }
     }
 }
 
 @media (max-width: 991.98px) {
-    .business{
-        &__title{
+    .business {
+        &__title {
             align-items: center;
             text-align: center;
             margin-bottom: 40px;
