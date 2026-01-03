@@ -3,7 +3,7 @@
 .client {
     &__title {
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         padding-top: 30px;
 
         h2 {
@@ -15,7 +15,5 @@
         @include position($direction: row, $justify: space-between);
         padding-top: 20px;
         padding-bottom: 20px;
-
-        img {}
     }
 }

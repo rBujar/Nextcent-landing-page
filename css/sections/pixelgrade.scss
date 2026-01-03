@@ -1,0 +1,37 @@
+@import "../mixins.scss";
+
+.pixelgrade {
+    &__img {
+        img {
+            width: 500px;
+            height: auto;
+        }
+    }
+
+    &__content {
+        @include position($align: start);
+
+        button {
+            padding: 10px 20px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 20px;
+
+        h2 {
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pixelgrade {
+        &__content {
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+    }
+}

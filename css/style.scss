@@ -4,6 +4,7 @@
 @import url("sections/client.scss");
 @import url("sections/community.scss");
 @import url("sections/pixelgrade.scss");
+@import url("sections/business.scss");
 @import url("sections/phone.css");
 @import url("sections/tesla.css");
 @import url("sections/blog.css");
@@ -11,6 +12,7 @@
 @import url("sections/footer.css");
 @import url("sections/scroll_up.css");
 @import url("./reset.css");
+@import url("./grid_system.scss");
 
 .bg-overlay {
   background: var(--neutral-silver);
@@ -77,10 +79,11 @@ body {
   line-height: 16px;
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
-}
 
-.green-btn:hover {
-  background-color: var(--primary-color-hover);
+  &:hover{
+    background-color: var(--primary-color-hover);
+
+  }
 }
 
 :root {
@@ -126,7 +129,8 @@ body {
 }
 
 section{
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 /* <=1399px */

@@ -1,416 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="./css/style.scss" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nextcent</title>
-  </head>
-  <body>
-    <header class="header container">
-      <div class="header__logo">
-        <img src="assets/logo-full.png" alt="logo" />
-        <div class="header__logo-overlay"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="./css/style.scss" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nextcent</title>
+</head>
+
+<body>
+  <header class="header container">
+    <div class="header__logo">
+      <img src="assets/logo-full.png" alt="logo" />
+      <div class="header__logo-overlay"></div>
+    </div>
+    <ul class="header__menu">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#features">Feautures</a>
+      </li>
+      <li>
+        <a href="#community">Community</a>
+      </li>
+      <li>
+        <a href="#blog">Blog</a>
+      </li>
+      <li>
+        <a href="#pricing">Pricing</a>
+      </li>
+    </ul>
+    <button class="header__button green-btn">
+      Register now
+      <img src="assets/arrow-right.png" alt="right-arrow" />
+    </button>
+    <div class="header__hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </header>
+  <div class="bg-overlay">
+    <section class="hero container" data-aos="fade" data-aos-delay="100">
+      <div class="hero__content">
+        <h1 class="h1-style">
+          Lesson and insights <br />
+          <span data-aos="fade-down">from 8 years</span>
+        </h1>
+        <p class="p-style">
+          Where to grow your business as a photographer: site or social media?
+        </p>
+        <button class="green-btn">Register</button>
       </div>
-      <ul class="header__menu">
+
+      <div class="hero__image" data-aos="fade" data-aos-delay="150">
+        <img src="assets/hero-illustration.png" alt="hero" />
+      </div>
+    </section>
+  </div>
+
+  <section class="client container">
+    <div class="client__title" data-aos="fade" data-aos-delay="100">
+      <h2 class="h2-style">Our Clients</h2>
+      <p class="p-style">
+        We have been working with some Fortune 500+ clients
+      </p>
+    </div>
+    <div class="client__logos" data-aos="fade" data-aos-delay="150">
+      <img src="assets/client-1.png" alt="client 1" />
+      <img src="assets/client-2.png" alt="client 2" />
+      <img src="assets/client-3.png" alt="client 3" />
+      <img src="assets/client-4.png" alt="client 4" />
+      <img src="assets/client-5.png" alt="client 5" />
+      <img src="assets/client-6.png" alt="client 6" />
+      <img src="assets/client-7.png" alt="client 7" />
+    </div>
+  </section>
+
+  <section class="community container">
+    <div class="community__title" data-aos="fade" data-aos-delay="100">
+      <h2 class="h2-style">
+        Manage your entire community <br />
+        in a single system
+      </h2>
+      <p class="p-style">Who is Nextcent suitable for?</p>
+    </div>
+    <div class="community__cards" data-aos="fade" data-aos-delay="150">
+      <div class="community__item">
+        <img src="assets/community-1.png" alt="community 1" />
+        <h3 class="h3-style">
+          Membership <br />
+          Organisations
+        </h3>
+        <p class="p-style">
+          Our membership management <br />
+          software provides full automation of
+          <br />membership renewals and payments
+        </p>
+      </div>
+      <div class="community__item">
+        <img src="assets/community-2.png" alt="community 2" />
+        <h3 class="h3-style">
+          National <br />
+          Associations
+        </h3>
+        <p class="p-style">
+          Our membership management <br />
+          software provides full automation of
+          <br />membership renewals and payments
+        </p>
+      </div>
+      <div class="community__item">
+        <img src="assets/community-3.png" alt="community 3" />
+        <h3 class="h3-style">
+          Clubs And <br />
+          Groups
+        </h3>
+        <p class="p-style">
+          Our membership management <br />
+          software provides full automation of
+          <br />membership renewals and payments
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pixelgrade container">
+    <div class="row">
+    <div class="pixelgrade__img col-12 col-md-5 col-lg-6 col-xl-4" data-aos="fade" data-aos-delay="100">
+      <img src="assets/pixelgrade.png" alt="pixelgrade" />
+    </div>
+    <div class="pixelgrade__content col-12 col-md-7 col-lg-6 col-xl-7 offset-xl-1" data-aos="fade" data-aos-delay="150">
+      <div class="pixelgrade__title">
+      <h2 class="h2-style">
+        The unseen of spending three
+        years at Pixelgrade
+      </h2>
+      <p class="p-style">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+      </p>
+    </div>
+      <button class="green-btn" >Learn More</button>
+    </div>
+  </div>
+  </section>
+
+  <div class="bg-overlay">
+    <section class="business container">
+      <div class="row">
+      <div class="business__title col-12 col-lg-5 col-xl-4" data-aos="fade" data-aos-delay="100">
+        <h2 class="h2-style">
+          Helping a local <br />
+          <span>business reinvent itself</span>
+        </h2>
+        <p class="p-style">
+          We reached her with our hard word and dedication
+        </p>
+      </div>
+      <div class="business__content col-12 offset-1 offset-sm-2 offset-md-3 col-lg-6 offset-lg-1 col-xl-6 offset-xl-2" data-aos="fade" data-aos-delay="150">
+        <div class="row">
+        <div class="business__item business__item--members  col-6 col-xl-6">
+          <img src="assets/business-icon-1.png" alt="pixelgrade icon 1" />
+          <div class="business__stats">
+            <h3 class="h3-style">2,245,241</h3>
+            <span class="p-style">Members</span>
+          </div>
+        </div>
+        <div class="business__item business__item--clubs col-xl-6">
+          <img src="assets/business-icon-2.png" alt="pixelgrade icon 2" />
+          <div class="business__stats">
+            <h3 class="h3-style">46,328</h3>
+            <span class="p-style">Clubs</span>
+          </div>
+        </div>
+        <div class="business__item col-6 col-xl-6">
+          <img src="assets/business-icon-3.png" alt="pixelgrade icon 3" />
+          <div class="business__stats">
+            <h3 class="h3-style">828,876</h3>
+            <span class="p-style">Event Bookings</span>
+          </div>
+        </div>
+        <div class="business__item col-6col-xl-6">
+          <img src="assets/business-icon-4.png" alt="pixelgrade icon 4" />
+          <div class="business__stats">
+            <h3 class="h3-style">1,926,436</h3>
+            <span class="p-style">Payments</span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </section>
+  </div>
+
+  <section class="phone container">
+    <div class="phone-img" data-aos="fade" data-aos-delay="100">
+      <img src="assets/phone.png" alt="phone" />
+    </div>
+    <div class="phone-content" data-aos="fade" data-aos-delay="150">
+      <h2 class="h2-style">
+        How to design your site footer <br />
+        like we did
+      </h2>
+      <p class="p-style">
+        Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
+        augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
+        elit erat a magna. Donec quis erat at libero ultrices mollis. In hac
+        habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi
+        facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet
+        urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur
+        quis massa. Praesent felis est, finibus et nisi ac, hendrerit
+        venenatis libero. Donec consectetur faucibus ipsum id gravida.
+      </p>
+      <button>Learn More</button>
+    </div>
+  </section>
+
+  <div class="bg-overlay">
+    <section class="tesla container">
+      <div class="tesla-img" data-aos="fade" data-aos-delay="100">
+        <img src="assets/tesla.png" alt="tesla" />
+      </div>
+      <div class="tesla-content" data-aos="fade" data-aos-delay="150">
+        <div class="tesla-content__info">
+          <p class="p-style">
+            Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
+            lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
+            enim metus. Vivamus sed libero ornare, tristique quam in, gravida
+            enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet
+            elit at ligula molestie, nec molestie mi blandit. Suspendisse
+            cursus tellus sed augue ultrices, quis tristique nulla sodales.
+            Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse
+            potenti. Quisque malesuada enim sapien, vitae placerat ante
+            feugiat eget. Quisque vulputate odio neque, eget efficitur libero
+            condimentum id. Curabitur id nibh id sem dignissim finibus ac sit
+            amet magna.
+          </p>
+          <h4>Tim Smith</h4>
+          <p class="associate-p">British Dragon Boat Racing Association</p>
+        </div>
+        <div class="tesla-content__bottom">
+          <div class="tesla-content__bottom-img">
+            <img src="assets/blue-logo.png" alt="blue logo" />
+            <img src="assets/client-2.png" alt="client 2" />
+            <img src="assets/client-3.png" alt="client 3" />
+            <img src="assets/client-4.png" alt="client 4" />
+            <img src="assets/client-5.png" alt="client 5" />
+            <img src="assets/client-6.png" alt="client 6" />
+          </div>
+          <div class="tesla-content__bottom-text">
+            <a href="">Meet all customers</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="blog container">
+    <div class="blog-content" data-aos="fade" data-aos-delay="100">
+      <h2 class="h2-style">Caring is the new marketing</h2>
+      <p class="p-style">
+        The Nextcent blog is the best place to read about the latest
+        membership insights, trends and more. See who's joining the community,
+        read about how our community are increasing their membership income
+        and lot's more.
+      </p>
+    </div>
+    <div class="blog-bottom" data-aos="fade" data-aos-delay="150">
+      <div class="blog-bottom__card">
+        <img src="assets/card-image-1.png" class="card-img" alt="" />
+        <div class="blog-bottom__card-info">
+          <p class="p-style">
+            Creating Streamlined Safeguarding Processes with OneRen
+          </p>
+          <div class="blog-bottom__card-info-button">
+            <a href="#">Read more</a>
+            <img src="assets/arrow-right-green.png" alt="arrow-right" />
+          </div>
+        </div>
+      </div>
+      <div class="blog-bottom__card">
+        <img src="assets/card-image-2.png" class="card-img" alt="" />
+        <div class="blog-bottom__card-info">
+          <p class="p-style">What are your safeguarding responsibilities?</p>
+          <div class="blog-bottom__card-info-button">
+            <a href="#">Read more</a>
+            <img src="assets/arrow-right-green.png" alt="arrow-right" />
+          </div>
+        </div>
+      </div>
+      <div class="blog-bottom__card">
+        <img src="assets/card-image-3.png" class="card-img" alt="" />
+        <div class="blog-bottom__card-info">
+          <p class="p-style">
+            Revamping the Membership Model with Triathlon Australia
+          </p>
+          <div class="blog-bottom__card-info-button">
+            <a href="#">Read more</a>
+            <img src="assets/arrow-right-green.png" alt="arrow-right" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bg-overlay">
+    <section class="get-demo container" data-aos="fade" data-aos-delay="100">
+      <h1 class="h1-style">
+        Pellentesque suscipit <br />
+        fringilla libero eu.
+      </h1>
+      <button class="get-demo-button">
+        Get a Demo <img src="assets/arrow-right.png" alt="right-arrow" />
+      </button>
+    </section>
+  </div>
+
+  <div class="footer-bg">
+    <footer class="footer container">
+      <div class="footer-logo">
+        <img src="assets/white-full-logo.png" class="footer-logo__main-logo" alt="nextcent-logo" />
+        <div class="footer-logo__copyrights">
+          <p class="footer-p">Copyright © 2020 Landify UI Kit.</p>
+          <p class="footer-p">All rights reserved</p>
+        </div>
+        <div class="footer-logo__socials">
+          <a href=""><img src="assets/instagram-icon.png" alt="instagram-icon" /></a>
+          <a href=""><img src="assets/internet-icon.png" alt="internet-icon" /></a>
+          <a href=""><img src="assets/twitter-icon.png" alt="twitter-icon" /></a>
+          <a href=""><img src="assets/youtube-icon.png" alt="youtube-icon" /></a>
+        </div>
+      </div>
+      <ul class="footer-company">
+        <h3 class="footer-h3">Company</h3>
         <li>
-          <a href="#home">Home</a>
+          <a href="#about-us" class="footer-p">About us</a>
         </li>
         <li>
-          <a href="#features">Feautures</a>
+          <a href="#blog" class="footer-p">Blog</a>
         </li>
         <li>
-          <a href="#community">Community</a>
+          <a href="#contact-us" class="footer-p">Contact us</a>
         </li>
         <li>
-          <a href="#blog">Blog</a>
+          <a href="#pricing" class="footer-p">Pricing</a>
         </li>
         <li>
-          <a href="#pricing">Pricing</a>
+          <a href="#testimonials" class="footer-p">Testimonials</a>
         </li>
       </ul>
-      <button class="header__button green-btn">
-        Register now
-        <img src="assets/arrow-right.png" alt="right-arrow" />
-      </button>
-      <div class="header__hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </header>
-    <div class="bg-overlay">
-      <section class="hero container" data-aos="fade" data-aos-delay="100">
-        <div class="hero__content">
-          <h1 class="h1-style">
-            Lesson and insights <br />
-            <span data-aos="fade-down">from 8 years</span>
-          </h1>
-          <p class="p-style">
-            Where to grow your business as a photographer: site or social media?
-          </p>
-          <button class="green-btn">Register</button>
-        </div>
 
-        <div class="hero__image" data-aos="fade" data-aos-delay="150">
-          <img src="assets/hero-illustration.png" alt="hero" />
-        </div>
-      </section>
-    </div>
+      <ul class="footer-support">
+        <h3 class="footer-h3">Support</h3>
+        <li>
+          <a href="#help-center" class="footer-p">Help Center</a>
+        </li>
+        <li>
+          <a href="#terms-of-service" class="footer-p">Terms Of Service</a>
+        </li>
+        <li>
+          <a href="#legal" class="footer-p">Legal</a>
+        </li>
+        <li>
+          <a href="#privacy-policy" class="footer-p">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#status" class="footer-p">Status</a>
+        </li>
+      </ul>
 
-    <section class="client container">
-      <div class="client__title" data-aos="fade" data-aos-delay="100">
-        <h2 class="h2-style">Our Clients</h2>
-        <p class="p-style">
-          We have been working with some Fortune 500+ clients
-        </p>
-      </div>
-      <div class="client__logos" data-aos="fade" data-aos-delay="150">
-        <img src="assets/client-1.png" alt="client 1" />
-        <img src="assets/client-2.png" alt="client 2" />
-        <img src="assets/client-3.png" alt="client 3" />
-        <img src="assets/client-4.png" alt="client 4" />
-        <img src="assets/client-5.png" alt="client 5" />
-        <img src="assets/client-6.png" alt="client 6" />
-        <img src="assets/client-7.png" alt="client 7" />
-      </div>
-    </section>
-
-    <section class="community container">
-      <div class="community__title" data-aos="fade" data-aos-delay="100">
-        <h2 class="h2-style">
-          Manage your entire community <br />
-          in a single system
-        </h2>
-        <p class="p-style">Who is Nextcent suitable for?</p>
-      </div>
-      <div class="community__cards" data-aos="fade" data-aos-delay="150">
-        <div class="community__item">
-          <img src="assets/community-1.png" alt="community 1" />
-          <h3 class="h3-style">
-            Membership <br />
-            Organisations
-          </h3>
-          <p class="p-style">
-            Our membership management <br />
-            software provides full automation of
-            <br />membership renewals and payments
-          </p>
-        </div>
-        <div class="community__item">
-          <img src="assets/community-2.png" alt="community 2" />
-          <h3 class="h3-style">
-            National <br />
-            Associations
-          </h3>
-          <p class="p-style">
-            Our membership management <br />
-            software provides full automation of
-            <br />membership renewals and payments
-          </p>
-        </div>
-        <div class="community__item">
-          <img src="assets/community-3.png" alt="community 3" />
-          <h3 class="h3-style">
-            Clubs And <br />
-            Groups
-          </h3>
-          <p class="p-style">
-            Our membership management <br />
-            software provides full automation of
-            <br />membership renewals and payments
-          </p>
+      <div class="footer-email">
+        <h3 class="footer-h3">Stay up to date</h3>
+        <div class="footer-email__wrapper">
+          <input type="email" id="email" name="email" placeholder="Your email address" />
+          <button type="submit" class="footer-email__wrapper-button">
+            <img src="assets/send-icon.png" alt="send" />
+          </button>
         </div>
       </div>
-    </section>
+    </footer>
+  </div>
+  <div class="scroll-up">
+    <button id="scroll-top" class="scroll-top_btn">
+      <img src="assets/scrollUp-arrow.png" alt="" />
+    </button>
+  </div>
+  <script type="module" src="js/script.js"></script>
+</body>
 
-    <section class="pixelgrade-info container">
-      <div class="pixelgrade-info__img" data-aos="fade" data-aos-delay="100">
-        <img src="assets/pixelgrade.png" alt="pixelgrade" />
-      </div>
-      <div
-        class="pixelgrade-info__content"
-        data-aos="fade"
-        data-aos-delay="150"
-      >
-        <h2 class="h2-style">
-          The unseen of spending three <br />
-          years at Pixelgrade
-        </h2>
-        <p class="p-style">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
-          justo ipsum. Sed accumsan quam vitae est varius fringilla.
-          Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
-          tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
-          Etiam quis massa pulvinar, aliquam vitae, tempus sem. Donec elementum
-          pulvinar odio. tempus sem. Donec
-        </p>
-        <button>Learn More</button>
-      </div>
-    </section>
-
-    <div class="bg-overlay">
-      <section class="pixelgrade-bottom container">
-        <div
-          class="pixelgrade-bottom__title"
-          data-aos="fade"
-          data-aos-delay="100"
-        >
-          <h2 class="h2-style">
-            Helping a local <br />
-            <span>business reinvent itself</span>
-          </h2>
-          <p class="p-style">
-            We reached her with our hard word and dedication
-          </p>
-        </div>
-        <div
-          class="pixelgrade-bottom__right"
-          data-aos="fade"
-          data-aos-delay="150"
-        >
-          <div class="pixelgrade-bottom__stats">
-            <img src="assets/pixelgrade-icon-1.png" alt="pixelgrade icon 1" />
-            <div class="pixelgrade-bottom__stats-info">
-              <h3 class="h3-style">2,245,241</h3>
-              <span>Members</span>
-            </div>
-          </div>
-          <div class="pixelgrade-bottom__stats">
-            <img src="assets/pixelgrade-icon-2.png" alt="pixelgrade icon 2" />
-            <div class="pixelgrade-bottom__stats-info">
-              <h3 class="h3-style">46,328</h3>
-              <span>Clubs</span>
-            </div>
-          </div>
-          <div class="pixelgrade-bottom__stats">
-            <img src="assets/pixelgrade-icon-3.png" alt="pixelgrade icon 3" />
-            <div class="pixelgrade-bottom__stats-info">
-              <h3 class="h3-style">828,876</h3>
-              <span>Event Bookings</span>
-            </div>
-          </div>
-          <div class="pixelgrade-bottom__stats">
-            <img src="assets/pixelgrade-icon-4.png" alt="pixelgrade icon 4" />
-            <div class="pixelgrade-bottom__stats-info">
-              <h3 class="h3-style">1,926,436</h3>
-              <span>Payments</span>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <section class="phone container">
-      <div class="phone-img" data-aos="fade" data-aos-delay="100">
-        <img src="assets/phone.png" alt="phone" />
-      </div>
-      <div class="phone-content" data-aos="fade" data-aos-delay="150">
-        <h2 class="h2-style">
-          How to design your site footer <br />
-          like we did
-        </h2>
-        <p class="p-style">
-          Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
-          augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
-          elit erat a magna. Donec quis erat at libero ultrices mollis. In hac
-          habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi
-          facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet
-          urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur
-          quis massa. Praesent felis est, finibus et nisi ac, hendrerit
-          venenatis libero. Donec consectetur faucibus ipsum id gravida.
-        </p>
-        <button>Learn More</button>
-      </div>
-    </section>
-
-    <div class="bg-overlay">
-      <section class="tesla container">
-        <div class="tesla-img" data-aos="fade" data-aos-delay="100">
-          <img src="assets/tesla.png" alt="tesla" />
-        </div>
-        <div class="tesla-content" data-aos="fade" data-aos-delay="150">
-          <div class="tesla-content__info">
-            <p class="p-style">
-              Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
-              lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
-              enim metus. Vivamus sed libero ornare, tristique quam in, gravida
-              enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet
-              elit at ligula molestie, nec molestie mi blandit. Suspendisse
-              cursus tellus sed augue ultrices, quis tristique nulla sodales.
-              Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse
-              potenti. Quisque malesuada enim sapien, vitae placerat ante
-              feugiat eget. Quisque vulputate odio neque, eget efficitur libero
-              condimentum id. Curabitur id nibh id sem dignissim finibus ac sit
-              amet magna.
-            </p>
-            <h4>Tim Smith</h4>
-            <p class="associate-p">British Dragon Boat Racing Association</p>
-          </div>
-          <div class="tesla-content__bottom">
-            <div class="tesla-content__bottom-img">
-              <img src="assets/blue-logo.png" alt="blue logo" />
-              <img src="assets/client-2.png" alt="client 2" />
-              <img src="assets/client-3.png" alt="client 3" />
-              <img src="assets/client-4.png" alt="client 4" />
-              <img src="assets/client-5.png" alt="client 5" />
-              <img src="assets/client-6.png" alt="client 6" />
-            </div>
-            <div class="tesla-content__bottom-text">
-              <a href="">Meet all customers</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <section class="blog container">
-      <div class="blog-content" data-aos="fade" data-aos-delay="100">
-        <h2 class="h2-style">Caring is the new marketing</h2>
-        <p class="p-style">
-          The Nextcent blog is the best place to read about the latest
-          membership insights, trends and more. See who's joining the community,
-          read about how our community are increasing their membership income
-          and lot's more.
-        </p>
-      </div>
-      <div class="blog-bottom" data-aos="fade" data-aos-delay="150">
-        <div class="blog-bottom__card">
-          <img src="assets/card-image-1.png" class="card-img" alt="" />
-          <div class="blog-bottom__card-info">
-            <p class="p-style">
-              Creating Streamlined Safeguarding Processes with OneRen
-            </p>
-            <div class="blog-bottom__card-info-button">
-              <a href="#">Read more</a>
-              <img src="assets/arrow-right-green.png" alt="arrow-right" />
-            </div>
-          </div>
-        </div>
-        <div class="blog-bottom__card">
-          <img src="assets/card-image-2.png" class="card-img" alt="" />
-          <div class="blog-bottom__card-info">
-            <p class="p-style">What are your safeguarding responsibilities?</p>
-            <div class="blog-bottom__card-info-button">
-              <a href="#">Read more</a>
-              <img src="assets/arrow-right-green.png" alt="arrow-right" />
-            </div>
-          </div>
-        </div>
-        <div class="blog-bottom__card">
-          <img src="assets/card-image-3.png" class="card-img" alt="" />
-          <div class="blog-bottom__card-info">
-            <p class="p-style">
-              Revamping the Membership Model with Triathlon Australia
-            </p>
-            <div class="blog-bottom__card-info-button">
-              <a href="#">Read more</a>
-              <img src="assets/arrow-right-green.png" alt="arrow-right" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="bg-overlay">
-      <section class="get-demo container" data-aos="fade" data-aos-delay="100">
-        <h1 class="h1-style">
-          Pellentesque suscipit <br />
-          fringilla libero eu.
-        </h1>
-        <button class="get-demo-button">
-          Get a Demo <img src="assets/arrow-right.png" alt="right-arrow" />
-        </button>
-      </section>
-    </div>
-
-    <div class="footer-bg">
-      <footer class="footer container">
-        <div class="footer-logo">
-          <img
-            src="assets/white-full-logo.png"
-            class="footer-logo__main-logo"
-            alt="nextcent-logo"
-          />
-          <div class="footer-logo__copyrights">
-            <p class="footer-p">Copyright © 2020 Landify UI Kit.</p>
-            <p class="footer-p">All rights reserved</p>
-          </div>
-          <div class="footer-logo__socials">
-            <a href=""
-              ><img src="assets/instagram-icon.png" alt="instagram-icon"
-            /></a>
-            <a href=""
-              ><img src="assets/internet-icon.png" alt="internet-icon"
-            /></a>
-            <a href=""
-              ><img src="assets/twitter-icon.png" alt="twitter-icon"
-            /></a>
-            <a href=""
-              ><img src="assets/youtube-icon.png" alt="youtube-icon"
-            /></a>
-          </div>
-        </div>
-        <ul class="footer-company">
-          <h3 class="footer-h3">Company</h3>
-          <li>
-            <a href="#about-us" class="footer-p">About us</a>
-          </li>
-          <li>
-            <a href="#blog" class="footer-p">Blog</a>
-          </li>
-          <li>
-            <a href="#contact-us" class="footer-p">Contact us</a>
-          </li>
-          <li>
-            <a href="#pricing" class="footer-p">Pricing</a>
-          </li>
-          <li>
-            <a href="#testimonials" class="footer-p">Testimonials</a>
-          </li>
-        </ul>
-
-        <ul class="footer-support">
-          <h3 class="footer-h3">Support</h3>
-          <li>
-            <a href="#help-center" class="footer-p">Help Center</a>
-          </li>
-          <li>
-            <a href="#terms-of-service" class="footer-p">Terms Of Service</a>
-          </li>
-          <li>
-            <a href="#legal" class="footer-p">Legal</a>
-          </li>
-          <li>
-            <a href="#privacy-policy" class="footer-p">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="#status" class="footer-p">Status</a>
-          </li>
-        </ul>
-
-        <div class="footer-email">
-          <h3 class="footer-h3">Stay up to date</h3>
-          <div class="footer-email__wrapper">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Your email address"
-            />
-            <button type="submit" class="footer-email__wrapper-button">
-              <img src="assets/send-icon.png" alt="send" />
-            </button>
-          </div>
-        </div>
-      </footer>
-    </div>
-    <div class="scroll-up">
-      <button id="scroll-top" class="scroll-top_btn">
-        <img src="assets/scrollUp-arrow.png" alt="" />
-      </button>
-    </div>
-    <script type="module" src="js/script.js"></script>
-  </body>
 </html>
