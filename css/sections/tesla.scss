@@ -1,0 +1,102 @@
+@import "../mixins.scss";
+
+.tesla {
+    &__img {
+        margin-left: 0px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__content {
+        @include position($align: start, $justify: center);
+        gap: 20px;
+    }
+
+    &__title {
+        p {
+            margin-bottom: 10px;
+            line-height: 16px;
+            font-weight: 500;
+        }
+
+        h4 {
+            font-size: 14px;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        span {
+            font-size: 12px;
+            line-height: 15px;
+            color: var(--neutral-l_grey);
+        }
+    }
+
+    &__clients {
+        @include position($direction: row, $justify: left);
+        gap: 20px;
+        width: 100%;
+    }
+
+    &__item {
+        @include position($direction: row, $justify: center);
+        gap: 30px;
+    }
+
+    &__link {
+        a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 600;
+            transition: color 0.2s ease-in-out;
+
+            &:hover {
+                color: var(--primary-color-hover);
+            }
+        }
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .tesla {
+        &__item {
+            img {
+                width: 25px;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .tesla {
+        &__img {
+            img {
+                min-width: 200px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .tesla {
+        &__item {
+            gap: 20px;
+
+            img {
+                width: 20px;
+            }
+        }
+
+        &__link {
+            a {
+                font-size: 10px;
+            }
+        }
+    }
+}
