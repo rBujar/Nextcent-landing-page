@@ -1,11 +1,25 @@
+@import "../mixins.scss";
+
 .get-demo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 30px;
-    margin: 20px auto;
+    &__content {
+        @include position();
+        gap: 25px;
+
+        h1 {
+            font-size: 44px;
+            line-height: 52px;
+            font-weight: 600;
+        }
+
+        button {
+            display: flex;
+            gap: 5px;
+            padding: 15px 30px;
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 600;
+        }
+    }
 }
 
 .get-demo h1 {
