@@ -1,0 +1,109 @@
+@import "../mixins.scss";
+
+.footer-bg{
+    background-color: var(--neutral-black);
+}
+
+.footer{
+    @include position($direction: row, $justify: space-between, $align: top);
+    padding: 40px;
+
+    &__logo{
+        @include position($align: start);
+        gap: 30px;
+    }
+
+    &__socials{
+        @include position($direction: row, $justify: space-between);
+        gap: 10px;
+
+        a{
+            color: var(--neutral-white);
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            background-color: var(--neutral-d_grey);
+            padding: 2px;
+        }
+
+        i{
+            font-size: 20px;
+        }
+    }
+
+    &__infos{
+        h3{
+            margin-bottom: 15px;
+        }
+
+        li{
+            opacity: 0.8;
+        }
+    }
+
+    &__update{
+        h3{
+            margin-bottom: 15px;
+        }
+
+        i{
+            color: var(--neutral-white);
+        }
+
+        button{
+            background-color: var(--neutral-d_grey);
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        input{
+            background-color: transparent;
+            border: none;
+            outline: none;
+
+            &::placeholder{
+                color: var(--neutral-white);
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__email{
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        padding: 5px 8px;
+        background-color: var(--neutral-d_grey);
+    }
+}
+@media (max-width: 991.98px) {
+    .footer{
+        flex-direction: column;
+        gap: 40px;
+
+        &__logo{
+            gap: 10px;
+        }
+
+        &__infos{
+            padding: 0px;
+        }
+
+        &__email{
+            width: fit-content;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer{
+        align-items: center;
+
+        &__logo{
+            align-items: center;
+            text-align: center;
+        }
+    }
+}

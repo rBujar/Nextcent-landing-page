@@ -9,10 +9,11 @@
 @import url("sections/tesla.scss");
 @import url("sections/blog.scss");
 @import url("sections/get-demo.scss");
-@import url("sections/footer.css");
-@import url("sections/scroll_up.css");
+@import url("sections/footer.scss");
+@import url("sections/navigation.scss");
 @import url("./reset.css");
 @import url("./grid_system.scss");
+@import url("./fontello.css");
 
 .bg-overlay {
   background: var(--neutral-silver);
@@ -66,6 +67,14 @@ h3 {
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 .green-btn {
